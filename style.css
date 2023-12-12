@@ -1,0 +1,332 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+font-family: 'Cormorant Garamond', serif;
+font-size: 17px;
+}
+
+h3{
+    margin-right: 5px;
+}
+
+header {
+    display:flex;
+    border: .125rem solid rgb(148, 104, 11);
+    padding: .3125rem;
+    height: 3.125rem;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    width: 99%;
+    z-index: 999999;
+}
+#logo {
+    height: 60px;
+    width: 245px;
+    display: flex;
+    
+    
+}
+.logo {
+    height: 50px;
+    width: 55px;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(148, 104, 11);
+    text-transform: uppercase;
+    /* colocar cor */
+}
+a:visited{
+    color: rgb(148, 104, 11);
+    text-transform: uppercase;  
+}
+.fundo{
+    height: 500px;
+    width: 100%;
+    position: relativ;
+    margin-top: 3.125rem;
+    object-fit: cover;
+    object-position: top;
+}
+#imgDefundo{
+    position: relative;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    
+}
+
+.cursiva{
+    font-family: 'Dancing Script', cursive;
+}
+
+.branco {
+    color: #fff;
+}
+.dourado {
+    color: rgb(148, 104, 11);
+}
+
+
+#contato{
+    border: 2px solid rgb(148, 104, 11);
+}
+
+.contato1 {
+    display: inline-block;
+    position: absolute;
+    z-index: 99999;
+    top: 50%;
+    right: 10%;
+}
+.iconsGrandes{
+    font-size: 86px;
+    color: rgb(148, 104, 11);
+    border: 2px solid rgb(148, 104, 11);
+    border-radius: 50%;
+    padding: 30px;
+}
+.iconsServico{
+    font-size: 70px;
+    color: #fff;
+    background-color:rgb(148, 104, 11) ;
+    border-radius: 50%;
+    padding: 15px;
+}
+.containerIcon{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    gap: 10px;
+}
+.iconSocial{
+    width: 47px;
+    height: 47px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.comunicacao{
+    display: flex;
+    align-items: center; 
+}
+.tel{
+    font-size: 47px;
+    color: #fff;
+    padding: 15px;  
+}
+.mapa{
+    position: relative;
+}
+.card1 {
+   
+    width: 350px;
+    height: 370px;
+    text-align: center;
+    
+}
+.destaque {
+    background-color: rgb(148, 104, 11);
+    border-radius: 15px;
+    width: 300px;
+    height: 130px;
+    margin-top: 15px;
+    padding: 15px;
+   
+}
+.card2 {
+    width: 350px;
+    height: 370px;
+    text-align: center;
+}
+.horario {
+    font-size: 25px;
+}
+.atendimento {
+    background-color: rgb(148, 104, 11);
+    border-radius: 15px;
+    width: 300px;
+    height: 130px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.card3 {
+    width: 350px;
+    height: 370px;
+    text-align: center;
+
+}
+.vitorias {
+    background-color: rgb(148, 104, 11);
+    border-radius: 15px;
+    width: 300px;
+    height: 130px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* serviço */
+
+.servico{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#servico{
+    text-align: center;
+    margin-top: 25px;
+}
+
+iframe{
+    width: 100%;
+    height: 320px;
+}
+
+.escEscritorio {
+    display: inline-block;
+    position: absolute;
+    z-index: 99999;
+    bottom: 35%;
+    right: 0%;
+    background-color: rgba(0, 0, 0, 0.712);
+    padding: 10px;
+}
+
+.depoimento1{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    border-top: 1px solid rgb(148, 104, 11);
+    border-bottom: 1px solid rgb(148, 104, 11);
+    text-align: center;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.depoimento3{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    border-top: 1px solid rgb(148, 104, 11);
+    border-bottom: 1px solid rgb(148, 104, 11);
+    text-align: center;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.depoimento2{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    border-top: 1px solid rgb(148, 104, 11);
+    border-bottom: 1px solid rgb(148, 104, 11);
+    text-align: center;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.imgperfil{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.perfil{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid  rgb(148, 104, 11);
+    
+    
+}
+.declaracao{
+    width: 80%;
+}
+
+.brg {
+    display: none;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.959); 
+}
+
+h4{
+    font-size: 14px;
+}
+
+
+    @media (max-width: 1156px) {
+        .info:after {
+            content: 'flickity';
+            display: none;
+          }
+
+          .info {
+            display: block;
+          }
+
+    }
+    @media (max-width: 900px) { 
+        .brg {
+            display: block;
+        }
+    
+        nav {
+            display: none;
+            flex-direction: column;
+            background-color: #000;
+            height: 200px;
+            margin-right: 0;
+            width: 140px;
+            justify-content: center;
+            border: 2px solid  rgb(148, 104, 11);
+        }
+        .escEscritorio {
+            display: none;
+        }
+        .fundo {
+            height: 500px;
+            width: 100%;
+            position: relativ;
+            margin-top: 3.125rem;
+            object-fit: cover;
+            object-position: right;
+        }
+    }
+    @media (max-width: 881px) {
+        .imgServico{
+            display: none;
+        }
+    }
+    /* .info {
+        width: 50%; /* half-width */
+        /* height: 160px;
+        margin-right: 10px; */
+      /* } */ 
+      @media (max-width: 618px) {
+        #social {
+            display: none;
+        }
+      }
